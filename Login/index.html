@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="processa.php" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="num">Número da Camisa</label>
+        <input type="number" name="num" id="num">
+
+        <fieldset>
+            <legend>Série</legend>
+            <label for="ano">1° Série</label>
+            <input type="radio" name="ano" id="ano">
+            <br>
+            <label for="ano">2° Série</label>
+            <input type="radio" name="ano" id="ano">
+            <br>
+            <label for="ano">3° Série</label>
+            <input type="radio" name="ano" id="ano">
+        </fieldset>
+
+        <fieldset>
+            <legend>Turma</legend>
+            <label for="turma">A</label>
+            <input type="radio" name="turma" id="turma">
+            <br>
+            <label for="turma">B</label>
+            <input type="radio" name="turma" id="turma">
+            <br>
+            <label for="turma">C</label>
+            <input type="radio" name="turma" id="turma">
+            <br>
+            <label for="turma">D</label>
+            <input type="radio" name="turma" id="turma">
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes que vai praticar</legend>
+            <label for="futebol">futebol</label>
+            <input type="checkbox" name="futebol" id="futebol">
+            <br>
+            <label for="volei">volei</label>
+            <input type="checkbox" name="volei" id="volei">
+        </fieldset>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+</html
